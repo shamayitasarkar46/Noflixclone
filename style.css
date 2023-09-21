@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;  
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url('Netflix_bg_image2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;   
+}
+.logo{
+    width: 160px;
+    height: 100px;
+    cursor: pointer;
+    size: 400;
+   
+}
+nav{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    margin: 0 160px;
+}
+.right-top{
+    margin-right: 0;
+}
+.btn-lang{  
+    outline: 0;
+    padding: 6px;
+    height: 32px;
+    width: 120.4px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+}
+.btn-signin{
+    margin-left: 20px;
+    outline: 0;
+    padding: 4px 12px;
+    width: 85px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #e50914;
+    color: white;   
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-lang i{
+    margin-right: 8px;
+    margin-left: 10px;
+}
+.header-content{
+ position: relative;
+   top: 40%;
+  left: 50%;
+   margin-top: 100px;
+   padding-left: 30px;
+   padding-right: 30px;
+   transform: translate(-50%,-50%);
+   text-align: center;  
+   display: inline-block;
+  
+}
+.header-content h1{
+    position: relative;
+    padding: 0;
+
+    font-size: 48px;
+    display: block;
+    font-weight: 900;
+    margin: 0;   
+}
+.header-content p{
+    font-size: 24px;       /* 1.5rem  == 24px */
+    font-weight: 400;
+    margin: 1rem 0 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.header-content h2{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.875rem;
+    display: block;
+    text-align: center;
+}
+ .email-signup{
+    display: inline-block; 
+    position: relative;
+    height:60px;
+    width: 600.69px;
+ }
+ .email-signup input{
+    position: relative;
+    width: 60%;
+    text-align: center;                                                        /*376.75px;*/
+    height: 56px;
+    top: 2px;
+    line-height: 1.5rem;
+    background: rgba(-874,0,0,0.6);   
+    padding: 24px 16px 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.email-signup input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.email-signup button{
+    outline: 0;
+    position: relative;
+    width: 210px;
+    height: 56px;
+    padding: 12px 24px;
+    margin: 0px 0px 0px 8px;
+    background: #e50914;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #e50914;
+    border-radius: 4px;
+}
+.email-signup button span{
+    font-weight: lighter;
+}
+.feature{
+    display: flex;
+    margin: auto;
+    padding: 50px 120px;
+    align-items: center;
+    height: 504px;
+    margin: auto;
+}
+.feature-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+}
+.contentrow h2{
+    font-size: 48px;
+}
+.contentrow p{
+    font-size: 24px;
+}
+.hr-separate{
+    height: 8px;
+    background: #232323;
+}
+.imgrow{
+    padding-right: 6px;
+}
+.imgrow{
+    padding-left: 6px;
+}
+.imgrow img{
+    width: 300px;
+    height: 300px;
+}
+/*
+.contentrow h2{
+    font-size: 48px;
+}
+.contentrow p{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.contentrow{
+    padding-right: 6px;
+}
+.imgrow{
+    padding-left: 6px;
+}
+.imgrow img{
+    width: 100%;
+    height: 100%;
+}
+.contentrow h2{
+    font-size: 48px;
+}
+.contentrow p{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.imgrow{
+    padding-right: 6px;
+}
+.contentrow{
+    padding-left: 6px;
+}
+.imgrow img{
+    width: 100%;
+    height: 100%;
+}
+.contentrow h2{
+    font-size: 48px;
+}
+.contentrow p{
+    font-size: 24px;
+    margin-top: 16px;
+}
+*/
+.nextpart{
+    padding: 72px 0px;
+    display: flexbox;  
+}
+.askedquestions-content{
+    padding: 0;
+    margin: 0px 50px;
+}
+.askedquestions-content h2{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.askedquestions-content li{
+    list-style-type: none;
+    margin: 0px 0px 8px;
+    height: 84px;
+}
+.askedquestions-content button{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    height: 84px;
+    width: 100%;
+    font-size: 24px;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
+.askedquestions-content button:hover{
+    background: rgb(66, 63, 63);
+}
+.askedquestions-content  li button span{
+    
+    font-size: 48px;
+}
+.lastpart{
+    text-align: center;   
+}
+.lastpart h3{
+    font-size: 20px;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+footer{
+    padding: 60px 0px;
+    margin: 0px 32px;
+}
+footer a{
+    text-decoration: underline;
+    color: #ffffffb3;
+    width: fit-content;
+}
+.call{
+    color: #ffffffb3;
+  
+    display: flex;
+    justify-content:flex-start ;
+}
+.footer-content{
+   width: 70%;
+    height: 201px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-content ul li{
+    padding: 8px 0px;
+    list-style-type: none;
+}
+
+/*
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.leftrow{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 50px 0;
+}
+img, p, h1{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.row h2{
+    font-size: 48px;
+    width: 100%;.
+}
+.row p{
+    font-size: 24px;
+    width: 90%;
+}
+.row img{
+    display: block;   
+    width: 100%;
+    margin: auto;
+}
+.header img 
+{   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url(Netflix_bg.jpg));
+    background-size: cover;
+    background-position: center;
+}
+.nav-logo img{
+    position: fixed;
+    width: 160px;
+    height: 75px;
+    top: 1%;
+}
+.nav-logo h1{
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+.nav2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 70%;
+    border: 1px dashed black;
+}
+.nav3{
+    width: 128px;
+    height: 100px;
+    position: absolute;
+    left: 86%;  
+    border: 1px dashed black;
+}
+.nav2 .icon{
+  padding: 6px 36px;
+    height: 32px;
+    width: 140px;
+    position: absolute;
+text-align: center;
+margin-top: 25px;
+margin-left: 35px;
+margin-right: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nav2 .icon i{
+    font-size: small;
+}
+.nav3 .signin{
+    padding: 4px 16px;
+    width: 90px;
+    height: 32px;
+position: absolute;
+text-align: center;
+margin-top: 25px;
+margin-left: 16px;
+margin-right: 16px;
+    display: inline;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 5px;
+}*/
+
+@media(max-width:951px){
+    .header-content h1{
+        font-size: 2.5rem;
+    }
+    nav{
+        margin: 0px 100px;
+    }
+}
+@media(max-width:800px){
+    nav{
+        margin: 0px 50px;
+    }
+}
+
+@media(max-width:735px){
+    .btn-signin{
+        margin-top: 10px;
+    }
+    .btn-lang{
+        padding: 6px 4px;
+    }
+    .btn-lang i{
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    
+}
+
+@media(max-width:600px){
+    /*.header-content h1{
+        font-size: 16px;
+    }*/
+}
+@media(max-width:600px){
+    /*.askedquestions-content{
+        margin-left: 15px;
+        margin-right: 15px;
+    }*/
+.askedquestions-content button{
+    font-size: 21px;
+}
+.askedquestions-content h2{
+    font-size: 32px;
+}
+}
+@media(max-width:491px){
+    .lastpart h3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .askedquestions-content{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .askedquestions-content button{
+        font-size: 16px;
+        text-align: left;
+    }
+    .askedquestions-content h2{
+        font-size: 28px;
+    }
+}
+@media(max-width:720px){
+    .header-content h1{
+        
+    
+        font-size: 32px;
+          
+    }
+    .header-content p{
+        font-size: 18px;       /*  == 24px */
+       
+    }
+    .header-content h2{
+        font-size: 18px;
+    }
+}
+
+
+@media((max-width:720px) and (min-width:590px)){
+    
+    
+
+
+
+    .email-signup input{
+        position: relative;
+        width: 32%;
+        text-align: center;                                                        /*376.75px;*/
+        height: 50px;
+        top: 2px;
+        line-height: 1.1rem;
+        background: rgba(-874,0,0,0.6);   
+        padding: 14px 6px;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
+    .email-signup input::placeholder{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .email-signup button{
+        outline: 0;
+        position: relative;
+        width: 125px;
+        height: 50px;
+        padding: 10px 8px;
+        margin: 0px 0px 0px 8px;
+        background: #e50914;
+        font-size: 16px;
+        color: white;
+        font-weight: bolder;
+        border: 1px solid #e50914;
+        border-radius: 4px;
+    }
+
+}/*
+@media(max-width:720px){
+    
+    .email-signup input{
+        width: 45%;
+        text-align: center;                                                        /*376.75px;
+        height: 40px;
+        bottom: -5px;
+        line-height: 1.1rem;
+        background: rgba(-874,0,0,0.6);   
+        padding:24px 16px 8px;
+        border: 1px solid white;
+        border-radius: 3px;
+    }
+    .email-signup button{
+        padding: 6px 8px;
+        margin: 0px 0px 0px 8px;
+        background: #e50914;
+        font-size: 16px;
+        color: white;
+        font-weight: bolder;
+        border: 1px solid #e50914;
+        border-radius: 3px;
+    }
+    .email-signup button span{
+        font-weight: lighter;
+    }
+   
+    .lastpart{
+        padding-left:30px;
+        padding-right: 30px;
+    }
+}*/
+@media(max-width:417.60px) {
+    .right-top{
+        margin-top: 25px;
+    }
+}
+
+@media((max-width:417.60px) and (min-width:360px)){
+    .right-top{
+      margin-top: 25px;
+      margin-left: 35px;
+    }
+    /*.btn-lang{  
+        outline: 0;
+        padding: 3px;
+        height: 25px;
+        width: 90px;
+        
+    }
+    .btn-signin{
+        
+        outline: 0;
+        padding: 4px;
+        width: 110px;
+        height: 25px;
+        font-size: 14px;
+        
+    }
+    .btn-lang i{
+        margin-right: 8px;
+        margin-left: 10px;
+    }*/
+}
+@media(max-width:590px){
+    nav {
+        margin: 0px 15px;
+        
+    }
+   
+    .nextpart{
+        padding: 50px 0px;
+    }
+    .email-signup{
+        display: inline-block; 
+        position: relative;
+        width: calc(100% - 30px);
+     }
+     .email-signup input{
+        width: 45%;
+        text-align: center;                                                     
+        height: 40px;
+        bottom: -5px;
+        line-height: 1.1rem;
+        background: rgba(-874,0,0,0.6);   
+        padding: 12px 12px 12px 4px;
+        border: 1px solid white;
+        border-radius: 3px;
+    }
+    .email-signup input::placeholder{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        align-items: center;
+        display: flex;
+    }
+    .email-signup button{
+        outline: 0;
+     
+        width: 100px;
+        height: 40px;
+        padding: 8px 5px;
+        margin: 0px 0px 0px 8px;
+        background: #e50914;
+        font-size: 14px;
+        color: white;
+        font-weight: bolder;
+        border: 1px solid #e50914;
+        border-radius: 3px;
+    }
+    .email-signup button span{
+        font-weight: lighter;
+    }
+
+
+    .askedquestions-content li{
+       
+     
+        height: 70px;
+    }
+    .askedquestions-content button{
+        
+        padding: 20px;
+        height: 70px;
+        
+        
+    }
+    .lastpart h3{
+       font-size: 18px;
+    }
+}
+@media(max-width:309px){
+    .email-signup input::placeholder{
+        font-size: 12px;
+    }
+
+}
